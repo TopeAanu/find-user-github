@@ -1,0 +1,39 @@
+@media (max-width: 500px) {
+  .btn {
+    padding: .5rem 0;
+    margin-bottom: 1rem;
+  }
+
+  .container {
+    padding: 0 1rem;
+  }
+
+  .col-1 {
+    max-width: 100%;
+  }
+
+  .col-2 {
+    max-width: 100%;
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 800px) {
+  .row {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .container {
+    padding: 0 1rem;
+  }
+
+  .col-2 {
+    max-width: 100%;
+    padding-left: 0;
+  }
+
+  .btn {
+    margin-bottom: 1rem;
+  }
+}
